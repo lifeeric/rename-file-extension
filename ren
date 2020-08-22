@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# rename files extension
+
+SUFF=$1
+suff=$2
+
+
+for f in $(ls *.$SUFF)
+do
+  mv  $f "${f%.$SUFF}.$suff"
+done
