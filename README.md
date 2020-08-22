@@ -33,3 +33,6 @@ $ chmod 755 ren
 ```
 $ ren [currentTExtension] [newExtension]
 ```
+
+
+[useful info](http://tldp.org/LDP/abs/html/string-manipulation.html)
